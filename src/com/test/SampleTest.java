@@ -2,7 +2,7 @@ package com.test;
 
 import org.testng.annotations.Test;
 
-import com.pages.LoginPage;
+import com.pages.SignUp;
 
 import org.testng.annotations.BeforeMethod;
 
@@ -18,7 +18,7 @@ public class SampleTest {
 	
 	
 	WebDriver driver;
-	LoginPage loginpage;
+	SignUp signup;
 		
 		
 	@BeforeMethod
@@ -26,14 +26,14 @@ public class SampleTest {
 		File file = new File("lib" + File.separator + "chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 		driver = new ChromeDriver();
-		loginpage = new LoginPage(driver);
+		signup = new SignUp(driver);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
 
   @Test(dataProvider = "dp")
   public void f(Integer n, String s) {
-	  loginpage.LoginToApllication("anuradhaweer@gmail.com", "1qaz!QAZ", "1qaz!QAZ");
+	  signup.SignUpToApllication("anuradhaweer@gmail.com", "1qaz!QAZ", "1qaz!QAZ");
   }
   @AfterMethod
   public void afterMethod() {

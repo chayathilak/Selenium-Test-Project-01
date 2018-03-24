@@ -5,9 +5,9 @@ import org.openqa.selenium.WebDriver;
 
 import com.helpers.TestBase;
 
-public class LoginPage extends TestBase {
+public class SignUp extends TestBase {
 	//constructor-extends the super (TestBase class)
-	public LoginPage(WebDriver driver) {
+	public SignUp(WebDriver driver) {
 		super(driver);
 	}
 	
@@ -20,7 +20,7 @@ public class LoginPage extends TestBase {
 	
 	
 	// void : method declaration and definition to specify that the method does not return any type
-	public void  LoginToApllication(String email,String password, String confirmpassword){
+	public void  SignUpToApllication(String email,String password, String confirmpassword){
 		Open("https://www.findmyfare.com/account/register");
 		System.out.println(email);
 		Type(in_email,email);
