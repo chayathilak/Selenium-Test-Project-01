@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/chayathilak/TestSample.git
