@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35119" started-at="2018-03-24T13:55:28Z" finished-at="2018-03-24T13:56:03Z">
+  <suite name="Default suite" duration-ms="20080" started-at="2018-03-24T17:10:53Z" finished-at="2018-03-24T17:11:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35119" started-at="2018-03-24T13:55:28Z" finished-at="2018-03-24T13:56:03Z">
+    <test name="Default test" duration-ms="20080" started-at="2018-03-24T17:10:53Z" finished-at="2018-03-24T17:11:13Z">
       <class name="com.test.SampleTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.SampleTest@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="4143" started-at="2018-03-24T19:25:28Z" finished-at="2018-03-24T19:25:32Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.SampleTest@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="6517" started-at="2018-03-24T22:40:53Z" finished-at="2018-03-24T22:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.test.SampleTest@6d00a15d]" name="f" duration-ms="30923" started-at="2018-03-24T19:25:32Z" data-provider="dp" finished-at="2018-03-24T19:26:03Z">
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.test.SampleTest@6d00a15d]" name="f" duration-ms="13527" started-at="2018-03-24T22:41:00Z" data-provider="dp" finished-at="2018-03-24T22:41:13Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.SampleTest@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-24T19:26:03Z" finished-at="2018-03-24T19:26:03Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.SampleTest@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-24T22:41:13Z" finished-at="2018-03-24T22:41:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
