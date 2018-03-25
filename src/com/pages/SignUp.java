@@ -28,4 +28,7 @@ public class SignUp extends TestBase {
 		Type(in_confirmpassword,confirmpassword);
 		Click(btn_signp);
 	}
+
+
+	
 }
