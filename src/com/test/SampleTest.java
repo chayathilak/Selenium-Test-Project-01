@@ -1,7 +1,6 @@
 package com.test;
 
 import org.testng.annotations.Test;
-
 import com.pages.SignIn;
 import com.pages.SignUp;
 
@@ -37,14 +36,13 @@ public class SampleTest {
   @Test(dataProvider = "dp")
   public void f(Integer n, String s) throws InterruptedException {
 	  signup.SignUpToApllication("anuradhaweer@gmail.com", "1qaz!QAZ", "1qaz!QAZ");
-	 
 	  signin.SignInToApllication("anuradhaweer@gmail.com", "1qaz!QAZ");
   }
+  
   @AfterMethod
   public void afterMethod() {
 	  
   }
-
 
   @DataProvider
   public Object[][] dp() {

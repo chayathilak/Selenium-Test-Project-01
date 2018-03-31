@@ -20,7 +20,7 @@ public class SignUp extends TestBase {
 	
 	
 	// void : method declaration and definition to specify that the method does not return any type
-	public void  SignUpToApllication(String email,String password, String confirmpassword){
+	public void  SignUpToApllication(String email,String password, String confirmpassword)throws InterruptedException{
 		Open("https://www.findmyfare.com/account/register");
 		System.out.println(email);
 		Type(in_email,email);
@@ -32,3 +32,4 @@ public class SignUp extends TestBase {
 
 	
 }
+
